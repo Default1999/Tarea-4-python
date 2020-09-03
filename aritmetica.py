@@ -21,7 +21,12 @@ print(f'otro ejemplo, si g={g}, e={e} y i={i} entonces, g*e*i= {g*e*i}')
 print(f'')
 #prints división
 print(f'/ corresponde a división, por lo tanto si j={j} y i={i} entonces, j/i= {j/i} ')
-print(f'otro ejemplo, si k={k}, c={c} y a={a} entonces, k/c/a= {k/c/a}')
+print(f'otro ejemplo, si k={k}, c={c} y a={a} entonces, k*c/a= {k*c/a}')
 print(f'') 
 #prints potencias
 print(f'** corresponde a una potencia, por lo tanto si g={g} y h={h} entonces, g**h= {g**h} ')
+print(f'otro ejemplo, si a={a}, j={j} y d={d} entonces, (a**j)*d= {(a**j)*d}')
+print(f'')
+#prints módulo
+print(f'% corresponde a la operación módulo,la cual entrega el resto de la división, por lo tanto si k={k} y b={b} entonces, k%b= {k%b}')
+print(f'otro ejemplo, si a={a}, b={b} y k={k} entonces, (a*b)%k= {(a*b)%k}')
